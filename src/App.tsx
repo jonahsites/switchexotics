@@ -57,11 +57,6 @@ export default function App() {
       {/* Floating HUD Navigation */}
       <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-100 flex items-center gap-2 px-2 py-2 bg-white/40 backdrop-blur-xl border border-black/10 rounded-full pointer-events-auto shadow-sm">
         <div className="flex items-center gap-3 px-6 py-2 border-r border-black/10">
-          <img 
-            src="https://www.image2url.com/r2/default/images/1777426018954-814689c4-0c95-4959-b6b0-724ea4f1d3e3.png" 
-            alt="Switch Exotics" 
-            className="h-8 w-auto invert"
-          />
           <span className="text-xl font-bold tracking-tighter text-black hidden md:block uppercase font-mono">Switch Exotics</span>
         </div>
         <div className="flex items-center gap-1 md:gap-4 px-2">
@@ -126,10 +121,6 @@ export default function App() {
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="relative"
             >
-              <div className="inline-flex items-center gap-3 mb-8 px-4 py-2 bg-white/50 backdrop-blur-md rounded-full border border-black/5 shadow-sm">
-                <div className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-                <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-black/60">System Online // Hub-04</span>
-              </div>
 
               <h1 className="text-7xl md:text-9xl lg:text-[180px] font-accent font-extrabold leading-[0.75] uppercase tracking-[-0.06em] mb-12">
                 Switch<br/>
@@ -334,11 +325,6 @@ export default function App() {
         <div className="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 mb-32">
           <div className="col-span-1 lg:col-span-1">
             <div className="flex items-center gap-4 mb-12">
-              <img 
-                src="https://www.image2url.com/r2/default/images/1777426018954-814689c4-0c95-4959-b6b0-724ea4f1d3e3.png" 
-                alt="Switch Exotics" 
-                className="h-10 w-auto invert"
-              />
               <div>
                 <span className="text-2xl font-bold tracking-tighter text-black leading-none block uppercase font-mono">Switch Exotics</span>
                 <span className="text-[10px] tracking-[0.4em] text-black/40 font-bold uppercase mt-1">Premier Registry</span>
